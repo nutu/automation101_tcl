@@ -16,8 +16,8 @@ set chassisInstance [$bps getChassis]
 $chassisInstance reservePort $cardSlot $port1
 $chassisInstance reservePort $cardSlot $port2
 
-#Creating the HelloWorld test based on an existing template AppSim.
-set testInstance [$bps createTest -name "bps_loop_sf" -template AppSim]
+#Creating the test configuration that will be used to run all apps based on an existing template "AppSim".
+set testInstance [$bps createTest -name "automation101_machine_gun_loop_superflows" -template AppSim]
 
 # ---- MODIFY THE NETWORK EMULATED BY THE TEST ----
 #Custumizing a new network "newNet" starting from the one set allready in the test
