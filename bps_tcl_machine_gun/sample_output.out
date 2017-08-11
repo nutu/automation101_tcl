@@ -1,0 +1,59 @@
+utomation101_Ares_v2183042_Login___File_Download END EXECUTION AND ANALYSIS ********
+********* automation101_Average_Web_Page_2011  CONFIGURATION SUMMARY ********
+Testing the firewall with traffic profile : "automation101_Average_Web_Page_2011"
+Targeting Data Rate : 10000 mbps bidirectional per interface traffic
+Targeting Superflow : 10000000 Simultaneous at a max 1000000 superflow per sec with 8 streams per each flow
+Load Profile  ramp up: 30 sustain: 70, ramp down: 15
+*********
+Starting bps_firewall_automation101_Average_Web_Page_2011 test
+ bps_firewall_automation101_Average_Web_Page_2011  |=========================================| 100 %
+*********
+Executed automation101_Average_Web_Page_2011 traffic profile contains the following protocols:
+19# Average Web Page 2011
+20# HTTP
+********* RESULTS ********
+Traffic combination automation101_Average_Web_Page_2011 TX TPUT:  10002 mbps
+Traffic combination automation101_Average_Web_Page_2011 RX TPUT:  10002 mbps
+Overall Super Flow Rate:  334667/s
+Overall Concurrent Super Flows:  6451197
+Unsuccessfull application atempts:  0
+Traffic errors if any:
+*!Overall routerDiscards:  1
+*!Component's flowExceptionCount:  2006
+*!Component's tcpOpenRetries:  8121
+*!Component's tcpUnknownReceivedRst:  1
+Test finished with status passed
+********* automation101_Average_Web_Page_2011 END EXECUTION AND ANALYSIS ********
+********* automation101_BBC_iPlayer  CONFIGURATION SUMMARY ********
+Testing the firewall with traffic profile : "automation101_BBC_iPlayer"
+Targeting Data Rate : 10000 mbps bidirectional per interface traffic
+Targeting Superflow : 10000000 Simultaneous at a max 1000000 superflow per sec with 8 streams per each flow
+Load Profile  ramp up: 30 sustain: 70, ramp down: 15
+*********
+Starting bps_firewall_automation101_BBC_iPlayer test
+ bps_firewall_automation101_BBC_iPlayer  |=========================================| 100 %
+*********
+Executed automation101_BBC_iPlayer traffic profile contains the following protocols:
+21# BBC iPlayer
+22# DNS
+********* RESULTS ********
+Traffic combination automation101_BBC_iPlayer TX TPUT:  10510 mbps
+Traffic combination automation101_BBC_iPlayer RX TPUT:  10512 mbps
+Overall Super Flow Rate:  335001/s
+Overall Concurrent Super Flows:  6450604
+Unsuccessfull application atempts:  28316
+Traffic errors if any:
+*!Component's appUnsuccessfulResolveRetries:  28316
+*!Component's flowExceptionCount:  28761
+*!Component's tcpOpenRetries:  26375
+Test finished with status passed
+********* automation101_BBC_iPlayer END EXECUTION AND ANALYSIS ********
+********* automation101_BBC_iPlayer_Radio  CONFIGURATION SUMMARY ********
+Testing the firewall with traffic profile : "automation101_BBC_iPlayer_Radio"
+Targeting Data Rate : 10000 mbps bidirectional per interface traffic
+Targeting Superflow : 10000000 Simultaneous at a max 1000000 superflow per sec with 8 streams per each flow
+Load Profile  ramp up: 30 sustain: 70, ramp down: 15
+*********
+Starting bps_firewall_automation101_BBC_iPlayer_Radio test
+ bps_firewall_automation101_BBC_iPlayer_Radio  |==============                           |  33 %
+
