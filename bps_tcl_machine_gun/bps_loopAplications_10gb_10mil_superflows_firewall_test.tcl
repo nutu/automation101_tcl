@@ -133,6 +133,8 @@ foreach sf $superFlowList {
     puts "*********"
     puts "Executed $trafic_profile traffic profile contains the following protocols: "
     set apps [$appsim_result protocols]
+    #using m to index the aplication flows defined when printing them
+    set m 0
     foreach app [lrange $apps 1 end] { 
         incr m
         puts "$m# $app"
